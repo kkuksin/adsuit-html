@@ -1,0 +1,12 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.navbar-default {
+    background-color: #f2f2f2;
+    border-color: transparent;
+}
+
+ .navbar-default .navbar-nav > li > a {
+     color: #8a8a8a;
+ }
