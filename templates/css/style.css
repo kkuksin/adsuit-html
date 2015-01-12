@@ -216,6 +216,7 @@ body{
         font-weight: 600;
         color: #232323;
         font-size: 20px;
+        margin-bottom: 40px;
     }
 
     .section-6 .head{
@@ -223,6 +224,8 @@ body{
         font-family: proximanovabold;
         color: #232323;
         font-weight: 600;
+        padding-bottom: 15px;
+        padding-top: 20px;
     }
 
     .section-6 .copyright{
@@ -241,7 +244,41 @@ body{
 
     .section-6 ul li a,
     .section-6 .notes {
-        font-family: proximanovaregular;
         font-size: 14px;
         color: rgb(124, 124, 124);
+        width: 94%;
+        line-height: 180%;
+        padding-top: 20px;
+    }
+
+    .section-6 .notes {
+        margin-bottom: 15px;
+    }
+
+    .section-6 .input-group {
+        width: 88%;
+    }
+
+    .section-6 .input-group input{
+        height: 50px;
+    }
+
+    .section-6 .doit {
+        width: 88%;
+        height: 50px;
+    }
+
+    .section-6 .input-group-addon {
+        width: 10%!important;
+    }
+
+    .section-6 .form {
+        padding-bottom: 50px;
+        border-bottom: 2px solid #c2c2c2;
+    }
+
+    .section-6 .links {
+        padding-bottom: 30px;
+        padding-top: 45px;
+        border-bottom: 2px solid #c2c2c2;
     }
