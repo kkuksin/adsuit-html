@@ -244,6 +244,18 @@ body{
         margin-bottom: 40px;
     }
 
+    .section-5 .play {
+        font-weight: 600;
+        font-size: 20px;
+        color: #232323;
+        padding-top: 60px;
+        padding-bottom: 38px;
+    }
+
+    .section-5 .play .red {
+        color: #d25149;
+    }
+
 
 /*section 6*/
     .section-6 {
