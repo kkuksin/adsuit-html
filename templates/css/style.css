@@ -57,7 +57,12 @@ body{
 	color:#1e989f;
 }
 
- 
+    .section-1,
+    .section-2,
+    .section-3 {
+        border-bottom: 1px solid #dbdbdb;
+    }
+
 	.section-1 h2 {
 		width:100%;
 		min-height:79px;
@@ -75,4 +80,109 @@ body{
 		color:rgba(255, 255, 255, 0.75);
 	}
 
+	.upper {
+		text-transform: uppercase;
+	}
 
+	.section-2 h2 {
+        color: #243567;
+        font-size: 39px;
+        font-weight: 300;
+        font-family: "Open Sans";
+        text-align: center;
+        margin-top: 110px;
+	}
+
+    .section-2 h3 {
+        color: rgba(36, 54, 103, 0.75);
+        font: 300 20px/1.58 Merriweather;
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 65px;
+    }
+
+    .section-2 .grunt {
+        color: #d25149;
+        font-family: proximanovabold;
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .section-2 .grunt span{
+        color: white;
+    }
+
+    .section-2 .grunt .radius {
+        background-color: #d25149;
+        border-radius: 35px;
+        float: left;
+        margin-right: 10px;
+        text-align: center;
+        height: 30px;
+        width: 30px;
+    }
+
+    .section-2 .grunt-text {
+        font-family: proximanovaregular;
+        font-size: 16px;
+        color: #232323;
+    }
+
+    .section-2 .row {
+        padding-bottom: 60px;
+    }
+
+    .section-2 img {
+        padding-top: 
+    }
+
+
+/* section 3*/
+
+    .section-3 {
+        background-color: #f1f1f1;
+    }
+
+    .section-3 h2 {
+        color: #243567;
+        font-size: 39px;
+        font-weight: 300;
+        line-height: 1.48;
+        margin-top: 142px;
+        min-height: 79px;
+    }
+
+    .section-3 .sec3-head {
+        color: rgb(34, 51, 98);
+        margin-top: 34px;
+    }
+
+    .section-3 p {
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+/* section 4*/
+
+    .section-4 {
+
+    }
+
+    .section-4 h2 {
+        
+    }
+
+
+/* section 5*/
+
+    .section-5 {
+        background-color: #fcfcfc;
+    }
+
+
+/*section 6*/
+    .section-6 {
+        background-color: #f2f2f2;
+    }

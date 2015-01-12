@@ -1,0 +1,45 @@
+   @font-face {
+    font-family: 'proximanovabold';
+    src: url('fonts/proximanovabold.eot');
+    src: url('fonts/proximanovabold.eot') format('embedded-opentype'),
+         url('fonts/proximanovabold.woff2') format('woff2'),
+         url('fonts/proximanovabold.woff') format('woff'),
+         url('fonts/proximanovabold.ttf') format('truetype'),
+         url('fonts/proximanovabold.svg#proximanovabold') format('svg');
+   }
+
+
+   @font-face {
+    font-family: 'proximanovaregular';
+    src: url('fonts/proximanovaregular.eot');
+    src: url('fonts/proximanovaregular.eot') format('embedded-opentype'),
+         url('fonts/proximanovaregular.woff2') format('woff2'),
+         url('fonts/proximanovaregular.woff') format('woff'),
+         url('fonts/proximanovaregular.ttf') format('truetype'),
+         url('fonts/proximanovaregular.svg#proximanovaregular') format('svg');
+    }
+
+    @font-face {
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Merriweather Light'), local('Merriweather-Light'), url(http://fonts.gstatic.com/s/merriweather/v8/ZvcMqxEwPfh2qDWBPxn6nmFp2sMiApZm5Dx7NpSTOZk.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 300;
+        src: local('Open Sans Light'), local('OpenSans-Light'), url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+    }
+    @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+    }
