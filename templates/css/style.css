@@ -186,3 +186,38 @@ body{
     .section-6 {
         background-color: #f2f2f2;
     }
+
+    .section-6 .offer{
+        font-family: proximanovabold;
+        font-weight: 600;
+        color: #232323;
+        font-size: 20px;
+    }
+
+    .section-6 .head{
+        font-size: 13px;
+        font-family: proximanovabold;
+        color: #232323;
+        font-weight: 600;
+    }
+
+    .section-6 .copyright{
+        font-size: 12px;
+        font-family: proximanovabold;
+        color: #232323;
+        font-weight: 600;
+    }
+
+    .section-6 .policy{
+        font-size: 10px;
+        font-family: proximanovabold;
+        color: #232323;
+        font-weight: 600;
+    }
+
+    .section-6 ul li a,
+    .section-6 .notes {
+        font-family: proximanovaregular;
+        font-size: 14px;
+        color: rgb(124, 124, 124);
+    }
