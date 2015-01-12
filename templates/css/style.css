@@ -274,7 +274,7 @@ body{
         padding-top: 35px;
     }
 
-    .section-6 .head{
+    .section-6 .head {
         font-size: 13px;
         color: #232323;
         font-weight: 600;
@@ -345,4 +345,8 @@ body{
     .vault {
         padding-top: 30px;
         padding-bottom: 20px;
+    }
+
+    .section-6 .links img {
+        margin-left: 6px;
     }
