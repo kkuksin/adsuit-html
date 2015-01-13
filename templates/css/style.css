@@ -226,9 +226,14 @@ body{
 
 /* section 4*/
 
+    .section-4 .feedback-block {
+        margin-bottom: 70px;
+    }
+
     .section-4 .feedback {
         font-size: 20px;
         margin-top: 20px;
+        color: #3F3E3E;
     }
 
     .section-4 .name {
@@ -236,6 +241,7 @@ body{
         font-weight: bold;
         padding-top: 15px;
         margin-bottom: 0px;
+        color: #858585;
     }
     
     .section-4 .techsm {
