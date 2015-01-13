@@ -134,6 +134,11 @@ body{
 		color:rgba(255, 255, 255, 0.75);
 	}
 
+    .section-1 .navcust {
+        background-color: inherit;
+        border-color: transparent;
+    }
+
     .container-2 {
     background-image: url("../images/Screen-Shot-2015-01-04-at-14.21.32.png");
     background-position: 50% 390px;
@@ -398,3 +403,38 @@ body{
     .section-6 .adsuit-logo {
         padding-bottom: 20px;
     }
+
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .navbar-collapse {
+        border: none;
+        overflow-y: none;
+        box-shadow: none;
+    }
+
+    .navbar-nav>li>a.join,
+    .navbar-nav>li>a.login {
+        padding: 0;
+        background: none;
+        border: none;
+        text-transform: uppercase;
+        color:rgb(255, 255, 255);
+    }
+
+    .navbar-nav>li>a.join:hover,
+    .navbar-nav>li>a.login:hover {
+        color:#337ab7;
+    }
+
+    .navbar-default .navbar-toggle {
+        color: #232323;
+        border-color: #fff;
+    }
+
+    .navbar-default .navbar-toggle:hover {
+        background-color: #fff;
+    }
+
+}

@@ -28,15 +28,25 @@
 
   <section class="container section-1">
     <div class="container">
-      	<div class="navbar">
+
+      	<div class="navbar navbar-default navcust" role="navigation">
 		    <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#renkit-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
                 <a href="http://rentkit.io/"><img class="logo" src="images/logo-white.png"></a>
             </div>
-            <ul class="nav navbar-nav navbar-right nav-btns">
-                <li><a href="http://newsletters.alasdairmonk.com/h/r/7781855D79452B12" class="join btn">Join waiting list</a></li>
-                <li><a href="https://rentkit.herokuapp.com/" class="login btn">Login</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="renkit-navbar-collapse">
+                <ul class="nav navbar-nav navbar-right nav-btns">
+                    <li><a href="http://newsletters.alasdairmonk.com/h/r/7781855D79452B12" class="join btn">Join waiting list</a></li>
+                    <li><a href="https://rentkit.herokuapp.com/" class="login btn">Login</a></li>
+                </ul>
+            </div>
       	</div>
+
         <h2 class="main-header text-center">Simple property management</h2>
         <p class="main-header-description text-center">Rentkit makes lettings &amp; property management a breeze.<br>It's perfect for landlords and small letting agents.</p>
         <div class="text-center col-md-12">
@@ -96,7 +106,6 @@
 
 <section class="section-3">
     <div class="row">
-        <img class="pull-right col-md-5" src="images/2.png">
         <div class="col-md-3 col-md-offset-3">
             <h2>Everything you need to know, in one place</h2>
             <p class="sec3-head">Overview panel</p>
@@ -105,6 +114,7 @@
             <p class="sec3-head">As much control as you want</p>
             <p>Autocharge allows you to specify a collection date and leave the rest to Rentkit. Payments from your tenant will be automatically deposited into your bank account. Want to manually control everything? You can do that too.</p>
         </div>
+        <img class="pull-right col-md-5 img-responsive" src="images/2.png">
   </div>
 </section>
 
