@@ -31,15 +31,17 @@ body{
 }
 
 .navbar-nav>li>a.join {
-	/*margin:21px 9.16667% 0 0;*/
 	border:1px solid rgb(255, 255, 255);
 	border-radius:3px;
 	font-size:13px;
 	font-weight:400;
 	color:rgb(255, 255, 255);
-	/*line-height:2.4;*/
 	text-align:center;
     margin-right:17px;
+}
+
+.navbar-nav>li>a.join:hover {
+    background-color: transparent;
 }
 
 .navbar-nav>li>a.login {
@@ -67,6 +69,10 @@ body{
     margin-bottom: 0px;
 }
 
+.section-1 .screenshot {
+    margin-top: 40px;
+}
+
 .scroll {
 	display:block;
 	width:224px;
@@ -79,6 +85,11 @@ body{
 	line-height:2.88;
 	text-align:center;
 	color:#1e989f;
+}
+
+.scroll:hover {
+    color:#1e989f;
+    text-decoration: none;
 }
 
     .section-1,
@@ -112,11 +123,10 @@ body{
     height: 880px;
     left: 0;
     margin: 0 auto;
-    position: absolute;
+    /*position: absolute;*/
     right: 0;
-    top: 1px;
+    /*top: 1px;*/
     width: 960px;
-    z-index: 7;
 }
 
 	.upper {
@@ -218,6 +228,7 @@ body{
 
     .section-4 .feedback {
         font-size: 20px;
+        margin-top: 20px;
     }
 
     .section-4 .name {
@@ -229,6 +240,14 @@ body{
     
     .section-4 .techsm {
         text-align: right;
+    }
+
+    .section-4 h2 {
+        margin-bottom: 60px;
+    }
+
+    .section-4 .customers {
+        margin-bottom: 20px;
     }
 
 /* section 5*/
