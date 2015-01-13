@@ -343,6 +343,9 @@ body{
     .section-6 .doit {
         width: 88%;
         height: 50px;
+        background-color: #00b268;
+        font-weight: 800;
+        font-size: 20px;
     }
 
     .section-6 .input-group-addon {
