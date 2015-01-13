@@ -303,16 +303,14 @@ body{
 
     .section-6 .copyright a {
         font-size: 12px;
-        font-family: proximanovabold;
         color: #232323;
         font-weight: 600;
     }
 
     .section-6 .policy a {
         font-size: 10px;
-        font-family: proximanovabold;
         color: #232323;
-        font-weight: 600;
+        font-weight: 800;
         text-align: right;
     }
 
@@ -322,7 +320,6 @@ body{
         color: rgb(124, 124, 124);
         width: 94%;
         line-height: 180%;
-        padding-top: 20px;
     }
 
     .section-6 .notes {
@@ -368,4 +365,8 @@ body{
 
     .section-6 .links img {
         margin-left: 6px;
+    }
+
+    .section-6 .adsuit-logo {
+        padding-bottom: 20px;
     }
