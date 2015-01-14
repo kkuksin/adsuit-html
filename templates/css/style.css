@@ -308,6 +308,11 @@ body{
         color: #d25149;
     }
 
+    .section-5 .finger {
+        position: absolute;
+        margin-left: 270px;
+        top: 80px;
+    }
 
 /*section 6*/
     .section-6 {
@@ -455,8 +460,8 @@ body{
         background: #00ABE3;
     }
 
-    .social .fa-instagram:hover { /* round instagram icon*/
-        background: #375989;
+    .social .fa-linkedin:hover { /* round linkedin icon*/
+        background: #0094BC;
     }
 /* ============== social ======================*/
 
