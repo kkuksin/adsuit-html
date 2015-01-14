@@ -441,12 +441,20 @@ body{
             margin-top: 80px;
         }
 
-        .section-4 .techsm {
+        .section-4 .techsm,
+        .social,
+        .adsuit-logo,
+        .integr-img {
             text-align: center;
         }
 
-        .social, .adsuit-logo {
-            text-align: center;
+        .section-2 .row {
+            padding-bottom: 20px;
+        }
+
+        .section-2 img {
+            padding-top: 0px;
+            padding-bottom: 10px;
         }
     }
 
