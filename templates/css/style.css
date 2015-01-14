@@ -278,7 +278,7 @@ body{
         color: #232323;
     }
 
-    .section-4 .customers {
+    .section-4 img {
         margin-bottom: 20px;
     }
 
@@ -406,35 +406,54 @@ body{
 
 
 
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-    .navbar-collapse {
-        border: none;
-        overflow-y: none;
-        box-shadow: none;
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .navbar-collapse {
+            border: none;
+            overflow-y: none;
+            box-shadow: none;
+        }
+
+        .navbar-nav>li>a.join,
+        .navbar-nav>li>a.login {
+            padding: 0;
+            background: none;
+            border: none;
+            text-transform: uppercase;
+            color:rgb(255, 255, 255);
+        }
+
+        .navbar-nav>li>a.join:hover,
+        .navbar-nav>li>a.login:hover {
+            color:#337ab7;
+        } 
+
+        .navbar-default .navbar-toggle {
+            color: #232323;
+            border-color: #fff;
+        }
+
+        .navbar-default .navbar-toggle:hover {
+            background-color: #fff;
+        }
+
+        .section-3 h2 {
+            margin-top: 80px;
+        }
+
+        .section-4 .techsm {
+            text-align: center;
+        }
+
     }
 
-    .navbar-nav>li>a.join,
-    .navbar-nav>li>a.login {
-        padding: 0;
-        background: none;
-        border: none;
-        text-transform: uppercase;
-        color:rgb(255, 255, 255);
-    }
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        .section-4 .techsm {
+            text-align: center;
+        }
 
-    .navbar-nav>li>a.join:hover,
-    .navbar-nav>li>a.login:hover {
-        color:#337ab7;
+        .section-6 .form-group {
+            margin-bottom: 10px;
+        }
     }
-
-    .navbar-default .navbar-toggle {
-        color: #232323;
-        border-color: #fff;
-    }
-
-    .navbar-default .navbar-toggle:hover {
-        background-color: #fff;
-    }
-
-}
