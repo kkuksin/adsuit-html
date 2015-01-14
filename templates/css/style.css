@@ -445,10 +445,9 @@ body{
             text-align: center;
         }
 
-        .social {
+        .social, .adsuit-logo {
             text-align: center;
         }
-
     }
 
     /* Medium Devices, Desktops */
