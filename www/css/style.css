@@ -9,6 +9,7 @@ body {
     left: 0;
     z-index: -1;
     background: linear-gradient(450deg, #263269 0%, #22b1b5 100%) repeat scroll 0 0 rgb(222, 222, 222);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#263269', EndColorStr='#22b1b5')"; /* IE8 */
     /*border-bottom: 1px solid #ddd;*/
 }
 .header {
